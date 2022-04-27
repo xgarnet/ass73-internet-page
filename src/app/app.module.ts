@@ -42,6 +42,8 @@ import { CustomersComponent } from './customers/customers.component';
       {path: 'news', component: NewsComponent},
       {path: 'support', component: SupportComponent},
       {path: 'contact', component: ContactComponent},
+      {path: 'agb', component: AgbComponent},
+      {path: 'impressum', component: ImpressumComponent},
       {path: '', redirectTo: '/heroes-list', pathMatch: 'full'},
       {path: '**', component: PageNotFoundComponent}
     ])
